@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LeafTaps]" parallel="tests">
+  <test thread-count="5" name="Flipcart(failed)" parallel="tests">
+    <classes>
+      <class name="liveproj.flipcartecommerce">
+        <methods>
+          <include name="buyProduct"/>
+        </methods>
+      </class> <!-- liveproj.flipcartecommerce -->
+    </classes>
+  </test> <!-- Flipcart(failed) -->
+</suite> <!-- Failed suite [LeafTaps] -->

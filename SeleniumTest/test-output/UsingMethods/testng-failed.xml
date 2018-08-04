@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UsingMethods]" parallel="tests">
+  <test thread-count="5" name="Parral(failed)" parallel="tests">
+    <classes>
+      <class name="createlead.Selenium1">
+        <methods>
+          <include name="loginbefMethod"/>
+          <include name="closeafterMethod"/>
+          <include name="sel"/>
+        </methods>
+      </class> <!-- createlead.Selenium1 -->
+    </classes>
+  </test> <!-- Parral(failed) -->
+</suite> <!-- Failed suite [UsingMethods] -->

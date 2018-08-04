@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [leads]">
+  <test thread-count="5" verbose="5" name="createLeads(failed)">
+    <classes>
+      <class name="wdMethods.CreateLeads">
+        <methods>
+          <include name="create"/>
+          <include name="loginbefMethod"/>
+          <include name="closeafterMethod"/>
+        </methods>
+      </class> <!-- wdMethods.CreateLeads -->
+    </classes>
+  </test> <!-- createLeads(failed) -->
+</suite> <!-- Failed suite [leads] -->
